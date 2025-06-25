@@ -10,27 +10,27 @@
     #15151E => Black
 */
 :root{
-    --general-background: #FFFFFF;
-    --general-foreground: #FFFFFF;
-    --general-textcolor: #15151E;
-    --general-highlight-textcolor: #B30600;
-    --general-highlight-background: #FFFFFF;
+    --general-background: #F4EBD0;
+    --general-foreground: #F4EBD0;
+    --general-textcolor: #122620;
+    --general-highlight-textcolor: #D6AD60;
+    --general-highlight-background: #D6AD60;
 
-    --header-highlight-textcolor: #B30600;
-    --header-highlight-background: #FFFFFF;
-    --header-textcolor: #FFFFFF;
-    --header-background: #B30600;
+    --header-highlight-textcolor: #D6AD60;
+    --header-highlight-background: #F4EBD0;
+    --header-textcolor: #F4EBD0;
+    --header-background: #D6AD60;
 
     --footer-background: #15151E;
-    --footer-textcolor: #FFFFFF;
+    --footer-textcolor: #F4EBD0;
 
-    --table-header-textcolor: #FFFFFF;
-    --table-header-background: #B30600;
-    --table-background-odd: #FFFFFF;
-    --table-background-even: #FFD1D3;
+    --table-header-textcolor: #F4EBD0;
+    --table-header-background: #D6AD60;
+    --table-background-odd: #F4EBD0;
+    --table-background-even: #e9d7a1;
 
-    --dt-textcolor: #FFFFFF;
-    --dt-background: #15151E;
+    --dt-textcolor: #F4EBD0;
+    --dt-background: #122620;
 }
 
 /* HEADER ---------------------------------- */
