@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EVE</title>
+<h1>EVE</h1>
+<nav>
+    <a href="../index.html">Overview</a>
+    <a href="../classes.html">Classes</a>
+    <a href="../magic.html">Magic</a>
+</nav>
+</head>
+<body>
+
+<h2>The Shaman</h2>
+    <h3>Overview</h3>
+        <p>
+            Shamans are magical users who perform old magic. They channel nature through their
+            bodies, thats why their main characteristic is CONSTITUTION.
+        </p>
+        <p>
+            They can only fight up close or perform old rituals that sometimes tax their bodies
+            in the form of expending hit die
+        </p>
+        <p>
+            A shaman has to think in advance since they need at best 2 turns to cast any spell. When
+            they perform a new ritual they lost the concentration and effects of the previous rite, 
+            so it is important that they manage a spell untill it is dismised to then start a new rite
+        </p>
+            
+    <h3>Stats</h3>
+        <ul>
+            <li>Hit die D12</li>
+            <li>you are proficient with unarmed, clubs and quarterstafs</li>
+            <li>You cannot wear armor
+            <li>Select 2 from: medicine, nature, survival, animal handling, insight</li>
+            <li>Saves: wisdom, constitution</li>
+        </ul>
+    </li>
+
+<h2>Levels</h2>
+<table>
+    <tr>
+        <th>Level</th>
+        <th>Proficiency bonus</th>
+        <th>Features</th>
+        <th>Rituals kowns</th>
+        <th>Ritual power</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>+2</td>
+        <td>Ritual casting, Shamanic divination, Fighting style</td>
+        <td>2</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>+2</td>
+        <td>Shaman subclass</td>
+        <td>2</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>+2</td>
+        <td>-</td>
+        <td>2</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>+2</td>
+        <td>Ability Score Improvement</td>
+        <td>2</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>+3</td>
+        <td>Multiattack</td>
+        <td>3</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>+3</td>
+        <td>Subclass feature</td>
+        <td>3</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>+3</td>
+        <td>-</td>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>+3</td>
+        <td>Ability Score Improvement</td>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>+4</td>
+        <td>-</td>
+        <td>4</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>+4</td>
+        <td>Subclass feature</td>
+        <td>4</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>+4</td>
+        <td>-</td>
+        <td>4</td>
+        <td>6</td>
+    <tr>
+        <td>12</td>
+        <td>+4</td>
+        <td>Ability Score Improvement</td>
+        <td>4</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>+5</td>
+        <td>-</td>
+        <td>5</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>+5</td>
+        <td>Subclass feature, Ritual body</td>
+        <td>5</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>+5</td>
+        <td>-</td>
+        <td>5</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>+5</td>
+        <td>Ability Score Improvement</td>
+        <td>5</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>+6</td>
+        <td>-</td>
+        <td>6</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>+6</td>
+        <td>Ritual mind</td>
+        <td>6</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>+6</td>
+        <td>Ability Score Improvement</td>
+        <td>6</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>+6</td>
+        <td>Ritual Spirit</td>
+        <td>6</td>
+        <td>9</td>
+    </tr>
+</table>
+
+<ul>
+    <li>
+        <h2>LvL1</h2>
+        <h3>Ritual Casting</h3>
+        <p>
+            Allows you to perform Rituals of magic as many times as you want.
+            Your ability for these rituals is CON.
+        </p>
+        <p>
+            Rituals take a long time to make. When you take the ritual action,
+            the next turns you will be stuck finishing the ritual. Each turn
+            after you take the ritual action, you can use your action to continue
+            the ritual. When you continue the ritual this way, you throw one D12.
+            The ritual will be done the moment you add up a number greater that or
+            equal to tree times the ritual level. 
+        </p>
+        <p>
+            E.G you are a level 5 shaman and take the Perform a Rite action to 
+            perform a Thunderwave ritual. Since you are lvl 5, the thunderwave will 
+            be level 3. Then you will need a 9 to end the ritual. On your next turn
+            you take the Continue Ritual action, throw a D12 and get a 4. On your
+            next turn you do the same and get a 6. The total sum is 10 so the ritual
+            is completed and Thunderwave is casted
+        </p>
+        <p>
+            When you perform a ritual, you gain concentration on it and cannot
+            move while performing the ritual. In case you decide to move, or are
+            forced to move, you lose the concentration
+        </p>
+        <p>
+            When you use a ritual that heals a creature in any way, you have to spend
+            a number of your hit die equal to your rite power. In case you dont have
+            enough hit die left, you gain a level of exhaustion.
+        </p>
+        <h3>Shamanic divination</h3>
+        <p>
+            You know the ritual Augury
+        </p>
+        <h3>Fighing style</h3>
+        <p>
+            <ul>
+                <li>Spirit: You learn Shillelagh and obtain club and quarterstafs proficiency</li>
+                <li>Earth: Gain Unarmed fighting</li>
+            </ul>
+        </p>
+    </li>
+    <li>
+        <h2>LvL2</h2>
+        <p>
+            Subclass: Totem, elemental, healer
+            Each subclass gives some free rituals that do not count towards your ritual number
+        </p>
+        <p>
+            <h3>Totem:</h3>
+            <table>
+                <tr>
+                    <th>Level</th>
+                    <th>Rites</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Alarm</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Nystul's Magic Aura</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Spirit Guardians</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Otiluke's Resilient Sphere</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Dispel Evil and Good</td>
+                </tr>
+            </table>
+            <p>
+                Gains sleight of hands proficiency
+            </p>
+            <ul>
+                <li>
+                    lvl 2 Totemancy: You can create totems to store succesful rites. You can have a number
+                    of totems active at the same time equal to your proficiency bonus. Your totems
+                    can store any non concentration non damage rite you know and can be handed to 
+                    others or left at specific locations. You know the general location of each of
+                    your active totems        
+                </li>
+                <li>
+                    lvl 6 Spiritual revuke: When one of your totems or a creature carrying one of your totems receive
+                    damage, you can use your reaction and spend one hit die to reduce the damage taken
+                    by 1D12
+                </li>
+                <li>
+                    lvl 10 Great totemancy: You can create great totems that ward off evil. You can sacrifice any living
+                    creature to try and speak with the spirits in search of aid and you cannot be surprised
+                    while sleeping under its veil. You need 1D12 days to build one
+                </li>
+                <li>
+                    lvl 14 Ancient Amplification ritual: You can use the totems to amplify your rituals.
+                    When you succesfully finish a ritual, you can spend a number of hit dice equal to 
+                    your proficiency bonus to cast again the spell from one of your active totems
+                </li>
+            </ul>
+        </p>
+        <p>
+            <h3>Elemental:</h3>
+            <table>
+                <tr>
+                    <th>Level</th>
+                    <th>Rites</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Earth Tremor</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Skywrite</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Water Walk </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Control Water</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Controll Winds</td>
+                </tr>
+            </table>
+            <p>
+                Gains arcane proficiency
+            </p>
+            <ul>
+                <li>
+                    lvl 2 Elemental sway: while you are performing a rite, you can move 
+                    up to half your speed.
+                </li>
+                <li>
+                    lvl 6 Ancient Elemental Rite: While you are performimg a rite, you can use your bonus 
+                    action and use one of your hit die to burst out an energy wave that deals elemental
+                    damage of your choice. Choose one:
+                    <ul>
+                        <li>
+                            Area: All enemies in a 10 ft sphere centered at you that 
+                            fail a DEX save take 1D12. In case they succeed at the save, they take 
+                            half of that damage.
+                        </li>
+                        <li>
+                            Single target: make a spell attack against selected target and deal 
+                            1d12 + CON modifier damage
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    lvl 10 The sound of things: You can talk to the spiritual personification of any 
+                    natural element like stone, water or fire.
+                </li>
+                <li>
+                    lvl 14 Aura of the elements: When you use your elemental burst, you create an
+                    area around you that emanates that energy. Choose one:
+                    <ul>
+                        <li>
+                            Harming terrain: Enemies that enter a 10ft sphere centered at you, take
+                            damage equal to your CON modifier, at least 1 damage
+                        </li>
+                        <li>
+                            Obfuscate terrain: a 10ft sphere centered at you is considered difficult
+                            terrain
+                        </li>
+                        <li>
+                            Storm: You gain flight 
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <h3>Healer:</h3> 
+            <table>
+                <tr>
+                    <th>Level</th>
+                    <th>Rites</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Cure wounds</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Gentle Repose</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Feign Death</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Deathward</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Reincarnate</td>
+                </tr>
+            </table>
+            <p>
+                Gains medicine proficiency
+            </p>
+            <ul>
+                <li>
+                    lvl 2 Life balance: Each time you heal a creature, they gain extra healing equal
+                    to your CON modifier.
+                </li>
+                <li>
+                    lvl 6 Suspicious balm: You can use your action to create one healing balm.
+                    The maximun amount of balms you can craft per day is equal to your proficiency bonus.
+                    Anyone carrying the balm can use a bonus action to apply the balm. The amount of health
+                    restored is equal to one throw of the hit die of the creature being healed. 
+                    If you, the shaman, is the one applying the balm, creature being healed is healed for 
+                    one throw of your hit die (+ your con modifier thanks to the Life Balance feature).
+                    (The shaman knows how to apply best the balm and no hit dice are being used either way)
+                </li>
+                <li>
+                    lvl 10: You get advantage on medicine throws when you use your suspicious balm. and you
+                    can perfom rituals to ask the illness and wounds
+                </li>
+                <li>
+                    lvl 14 Ancient Healing Rite: When you are performing a ritual, you can use your 
+                    bonus action and spend one of your hit die to heal a creature for 1D12
+                </li>
+            </ul>
+        </p>
+    </li>
+    <li>
+        <h2>LvL4</h2>
+        <p>
+            You gain an ability score upgrade or a feat. You gain the same benefict at levels 8, 12, 16, 19
+        </p>
+    </li>
+    <li>
+        <h2>LvL5</h2>
+        <p>
+            Multiattack. you can attack twice instead of once when you take the attack action on your turn.
+        </p>
+    </li>
+    <li>
+        <h2>LvL14</h2>
+        <p>
+            Ritual body
+            While you are casting a ritual, you get a bonus to your AC equal to your CON mod
+        </p>
+    </li>
+    <li>
+        <h2>LvL18</h2>
+        <p>
+            Ritual mind
+            While you are casting a ritual, you get a bonus to your saves to maintain concentration
+            equal to your CON mod
+        </p>
+    </li>
+    <li>
+        <h2>LvL20</h2>
+        <p>
+            Ritual spirit
+            When you begin a fight and have less hit dice than your CON modifier, you gain 
+            hit die untill you have that same amount
+        </p>
+    </li>
+</ul>
+<h2>Spells</h2>
+    <p>
+        You have the ability of performing rituals to invoke magic. These rituals do not any
+        spell slot. In order to cast a ritual you have to spend twice the casting time 
+        while concentrating on the spell standing still
+    </p>
+    <p>
+        If you move or are forced to move, the ritual ends. Breaking your concentration while
+        performing the ritual also cancels it.
+    </p>
+    <p>
+        You know a number of rituals equal to your proficiency bonus. CON is your ability to
+        perform those rituals. The rituals you perform can be upgraded using the rite abilities
+    </p>
+    <p>
+        Every time you perform a healing ritual of any kind, you have to spend a number of 
+        your hit die equal to your ritual power or gain one level of exhaustion in case 
+        you dont have any hit dice left
+    </p>
+        <h3>Cantrips</h3>
+        <ul>
+            <li>Druidcraft</li>
+            <li>Control elements</li>
+            <li>Shillelagh</li>
+        </ul>
+        <h3>L1</h3>
+        <ul>
+            <li>Bane</li>
+            <li>Cure wounds</li>
+            <li>Detect Evil and Good</li>
+            <li>Detect Magic</li>
+            <li>Detect Poison and Disease</li>
+            <li>Earth Tremor</li>
+            <li>Entangle</li>
+            <li>Protection from Evil and Good</li>
+            <li>Speak with Animals</li>
+            <li>Thunderwave</li>
+        </ul>
+        <h3>L2</h3>
+        <ul>
+            <li>Animal Messenger</li>
+            <li>Beast Sense</li>
+            <li>Borrowed Knowledge</li>
+            <li>Continual Flame</li>
+            <li>Earthbind</li>
+            <li>Enhance Ability</li>
+            <li>Gentle Repose</li>
+            <li>Healing Spirit</li>
+            <li>Maximillian's Earthen Grasp</li>
+            <li>Shatter</li>
+            <li>Skywrite</li>
+            <li>Spike Growth</li>
+            <li>Wither and Bloom</li>
+        </ul>
+        <h3>L3</h3>
+        <ul>
+            <li>Bestow Curse</li>
+            <li>Call Lightning</li>
+            <li>Clairvoyance</li>
+            <li>Erupting Earth</li>
+            <li>Magic Circle</li>
+            <li>Melf's Minute Meteors</li>
+            <li>Phantom Steed</li>
+            <li>Remove Curse</li>
+            <li>Sending</li>
+            <li>Speak with Dead</li>
+            <li>Spirit Shroud</li>
+            <li>Wall of Sand</li>
+            <li>Wall of Water</li>
+            <li>Water Walk</li>
+            <li>Wind Wall</li>
+        </ul>
+        <h3>L4</h3>
+        <ul>
+            <li>Banishment</li>
+            <li>Control Water</li>
+            <li>Divination</li>
+            <li>Grasping Vine</li>
+            <li>Guardian of Nature</li>
+            <li>Stone Shape</li>
+            <li>Stoneskin</li>
+            <li>Storm Sphere</li>
+            <li>Wall of Fire</li>
+        </ul>
+        <h3>L5</h3>
+        <ul>
+            <li>Commune with Nature</li>
+            <li>Contact Other Plane</li>
+            <li>Control Winds</li>
+            <li>Dream</li>
+            <li>Negative Energy Flood</li>
+            <li>Reincarnate</li>
+            <li>Scrying</li>
+            <li>Skill Empowerment</li>
+            <li>Teleportation Circle</li>
+            <li>Wall of Stone</li>
+            <li>Wrath Of Nature</li>
+        </ul>
+        <h3>L6</h3>
+        <ul>
+            <li>Bones of the Earth</li>
+            <li>Chain Lightning</li>
+            <li>Find the Path</li>
+            <li>Heal</li>
+            <li>Move Earth</li>
+            <li>Primordial Ward</li>
+            <li>Scatter</li>
+            <li>Wall of Thorns</li>
+        </ul>
+        <h3>L7</h3>
+        <ul>
+            <li>Create Magen</li>
+            <li>Dream of the Blue Veil</li>
+            <li>Etherealness</li>
+            <li>Fire Storm</li>
+            <li>Mirage Arcane</li>
+            <li>Project Image</li>
+            <li>Regenerate</li>
+            <li>Teleport</li>
+            <li>Tether Essence</li>
+            <li>Whirlwind</li>
+        </ul>
+        <h3>L8</h3>
+        <ul>
+            <li>Control Weather</li>
+            <li>Earthquake</li>
+            <li>Incendiary Cloud</li>
+            <li>Tsunami</li>
+        </ul>
+        <h3>L9</h3>
+        <ul>
+            <li>Astral Projection</li>
+            <li>Foresight</li>
+            <li>Meteor Swarm</li>
+            <li>True Resurrection</li>
+        </ul>
+</body>
+</html> 
