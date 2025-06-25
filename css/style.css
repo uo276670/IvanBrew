@@ -11,7 +11,6 @@
 */
 :root{
     --general-background: #F4EBD0;
-    --general-foreground: #F4EBD0;
     --general-textcolor: #122620;
     --general-highlight-textcolor: #D6AD60;
     --general-highlight-background: #D6AD60;
@@ -84,8 +83,8 @@ a:visited {
 a:focus,
 a:hover,
 a:active{
-    color: var(--general-highlight-background);
-    background-color: var(--general-highlight-textcolor);
+    color: var(--header-textcolor);
+    background-color: var(--header-background);
     text-decoration-line: none;
 }
 
